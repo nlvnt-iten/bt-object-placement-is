@@ -1,0 +1,2 @@
+class PlacementPointLink:
+    pass

@@ -1,0 +1,5 @@
+TILE_SIZE       = 256
+SIDEBAR_WIDTH   = 468
+EDGE_EPS        = 1e-6
+NODE_RADIUS     = 16
+LABEL_CIRCLE_R  = 12

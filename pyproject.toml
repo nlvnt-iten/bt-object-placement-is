@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bt-object-placement-is"
+version = "0.1.0"
+requires-python = ">=3.7"
+
+dependencies = [
+  "altgraph==0.17.4",
+  "certifi==2025.1.31",
+  "charset-normalizer==3.4.1",
+  "docutils==0.21.2",
+  "filetype==1.2.0",
+  "flit_core==3.12.0",
+  "geographiclib==2.0",
+  "geopandas==1.0.1",
+  "geopy==2.4.1",
+  "idna==3.10",
+  "joblib==1.5.0",
+  "Kivy==2.3.1",
+  "kivy-deps.angle==0.4.0",
+  "kivy-deps.glew==0.3.1",
+  "Kivy-examples==2.3.1",
+  "Kivy-Garden==0.1.5",
+  "kivy-garden.mapview==1.0.6",
+  "kivy_deps.gstreamer==0.3.4",
+  "kivy_deps.sdl2==0.8.0",
+  "networkx==3.4.2",
+  "numpy==2.2.5",
+  "osmnx==2.0.2",
+  "packaging==25.0",
+  "pandas==2.2.3",
+  "pefile==2023.2.7",
+  "pillow==10.4.0",
+  "Pygments==2.19.1",
+  "pyinstaller==6.13.0",
+  "pyinstaller-hooks-contrib==2025.3",
+  "pyogrio==0.10.0",
+  "pypiwin32==223",
+  "pyproj==3.7.1",
+  "python-dateutil==2.9.0.post0",
+  "pytz==2025.2",
+  "pywin32==310",
+  "pywin32-ctypes==0.2.3",
+  "requests==2.32.3",
+  "scikit-learn==1.6.1",
+  "scipy==1.15.3",
+  "shapely==2.1.0",
+  "six==1.17.0",
+  "threadpoolctl==3.6.0",
+  "tomli_w==1.2.0",
+  "tzdata==2025.2",
+  "urllib3==2.4.0",
+  "miniball==1.2.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
